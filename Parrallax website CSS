@@ -1,0 +1,80 @@
+body , html {
+    height: 100%;
+    margin: 0;
+    font-family: Lato, sans-serif;
+   font-weight: 400;
+   line-height: 1.8em;
+   color: #666;
+   font-size: 16px
+
+}
+
+.pimg1, .pimg2, .pimg3 {
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+   /** fixed = parrallelax
+   scroll =normal 
+    **/
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image:url('images/sky.jfif');
+    min-height: 100%;
+    
+}
+
+.pimg2 {
+    min-height: 400px;;
+    background-image:url('images/unsplash.jfif');
+}
+
+.pimg3 {
+    min-height: 400px;;
+    background-image:url('images/night.jfif');
+    
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+.section-light {
+    background-color: #89a2b354;
+    color: #982;
+
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform:  uppercase;
+}
+
+.ptext  .border {
+    background-color: #111;
+    color: #fff;
+
+}
+
